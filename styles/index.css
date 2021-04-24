@@ -1,0 +1,23 @@
+@import './common.css';
+
+#game-board{
+    width: 512px;
+    height: 512px;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.cell{
+    border: 1px solid var(--black);
+    cursor: pointer;
+}
+
+.alive{
+    background-color: var(--black);
+}
+
+.dead{
+    background-color: var(--white);
+}

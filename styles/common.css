@@ -1,0 +1,13 @@
+:root{
+    --black: #292929;
+    --white: #dadada;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
