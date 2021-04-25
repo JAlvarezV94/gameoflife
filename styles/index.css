@@ -21,3 +21,20 @@
 .dead{
     background-color: var(--white);
 }
+
+.gamepad{
+    width: 512px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamepad button {
+    background: none;
+    border: none;
+    color: var(--white);
+}
+
+.gamepad button:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
